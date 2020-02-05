@@ -57,6 +57,14 @@
         background-color: white;
     }
 }
+.btn--green{
+    background-color:$color-primary;
+    color: white;
+
+    &::after {
+        background-color: $color-primary;
+    }
+}
 
 .btn--animation {
     animation: moveBottom .5s ease-out .75s;
