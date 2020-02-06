@@ -9,7 +9,7 @@
       }
   } //$//*
     &:not(:last-child) {
-      margin-bottom:$guter-vertical;
+      margin-bottom:$guter-horizontal;
     }
     .col-1-of-2{
       width: calc((100% - #{$guter-horizontal})/2);
