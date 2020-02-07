@@ -8,9 +8,13 @@
 @import "base/animations";
 @import "base/typography";
 @import "base/utilities";
+
+
 @import "pages/homepage";
 @import "layout/header";
-@import "layout/grid";
+@import "layout/grid";      
+
+@import 'components/form';               
 @import 'components/story';
 @import "components/bg-video";
 @import "components/button";
