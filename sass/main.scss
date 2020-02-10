@@ -1,4 +1,4 @@
-                     
+                         
 // From the abstract   
 @import "abstracts/mixins";
 @import "abstracts/functions";
@@ -9,13 +9,15 @@
 @import "base/typography";
 @import "base/utilities";     
 
-
+   
 @import "pages/homepage";
 @import "layout/navigation";       
 @import "layout/header";
 @import "layout/grid";  
 @import "layout/footer";   
 
+
+@import 'components/popup';
 @import 'components/form';               
 @import 'components/story';
 @import "components/bg-video";
