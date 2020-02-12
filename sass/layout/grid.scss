@@ -8,12 +8,29 @@
 
         &:not(:last-child) {
             margin-right: $guter-horizontal;
+
+            @include respone (tab-port) {
+                margin-right: 0;
+                margin-bottom: $guter-vertical-small;
+            }
+        }
+
+        @include respone (tab-port) {
+            width: 100% !important;
         }
     }
+    @include respone (tab-port) {
+        max-width: 50rem;
+        padding: 0 3rem;
+    }
+
 
     //$//*
     &:not(:last-child) {
         margin-bottom: $guter-horizontal;
+        @include respone (tab-port) {
+            margin-bottom: $guter-vertical-small;
+        }
     }
 
     .col-1-of-2 {
